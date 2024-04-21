@@ -1,4 +1,4 @@
- django.shortcuts import redirect
+from django.shortcuts import redirect
 
 def index(request):
     return redirect('/todos')
